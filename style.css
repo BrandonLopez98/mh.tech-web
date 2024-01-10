@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5vw 3.5vw 1.5vw 3.5vw;
+}
+
+header .img-Logo{
+    height: 5vh;
+}
+
+header .img-preguntas{
+    height: 4vh;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-left: 2vw;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #16367b;
+}
+
+header nav ul li a span{
+    background-color: #ff8400 ;
+    color: #ffffff;
+    padding: 0.5vw 1.9vw;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ---------------------- header ----------------------------------------*/
+
+main .section-1{
+    background-image: url('./multimedia/index/section-1/Chicos\ con\ computador.png');
+    background-size: cover;
+    background-position:top ;
+    width: 75vw;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    
+} 
+
+main .section-1 div{
+    background-color: #16367b;
+    position: absolute;
+    right: 0;
+    width: 45vw;
+    padding: 3vw 5vw;
+    border-radius: 20px 0 0 20px;
+    color: #ffffff;
+} 
+
+main .section-1 div span{
+    color: #ff8400;
+    font-size: 1.3vw;
+    font-weight: 300;
+    font-style: italic;
+}
+
+main .section-1 div h2{
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 1;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+main .section-1 div p{
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+}
+
+main .section-1 div a{
+    background-color: #ff8400 ;
+    color: #ffffff;
+    padding: 0.5vw 1.9vw;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*------------------------------ Secion 1 ------------------------------ */
+
+main .section-2 h2{
+    text-align: center;
+    margin: 3vw;
+    font-size: 2vw;
+    color: #16367b;
+}
+
+main .section-2 .content-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+main .section-2 .content-div div{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .section-2 .content-div div img{
+    width: 12vw;
+    margin-bottom: 1vw;
+}
+
+main .section-2 .content-div div h4{
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+main .section-2 .content-div div p{
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 1.1vw;
+}
+
+/*------------------------------ Secion 2 ------------------------------ */
+
+main .section-3 h2{
+    text-align: center;
+    margin: 8vw 2vw 0 2vw;
+    color: #16367b;
+    font-size: 2vw;
+}
+
+main .section-3 > div{
+    display: flex;
+    align-items: center;
+    padding: 2vw 10vw;
+    margin: 2vw auto;
+
+}
+
+main .section-3 .content-color{
+    background-color: #e6e6e6;
+}
+
+main .section-3 div img{
+    width: 25vw;
+    margin-right: 10vw;
+}
+
+main .section-3 div .img-reverse{
+    margin-right: 0;
+    margin-left: 10vw;
+}
+
+main .section-3 div h3{
+    color: #16367b;
+    margin-bottom: 1.5vw;
+    font-size: 1.7vw;
+
+}
+
+main .section-3 div span{
+    color: #ff8400;
+    font-size: 1.2vw;
+}
+
+main .section-3 div p{
+    margin-bottom: 2vw;
+    margin-top: 1.2vw;
+    font-size: 1.1vw;
+}
+
+main .section-3 div a{
+    background-color: #ff8400 ;
+    color: #ffffff;
+    padding: 0.5vw 1.9vw;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*------------------------------ Secion 3 ------------------------------ */
+
+main .section-4{
+    padding-bottom: 3vw;
+}
+
+main .section-4 .section-4-1{
+    background-image: url('./multimedia/index/section-4/Recurso\ 15imagen\ 1.png');
+    background-size: cover;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .section-4 .section-4-1 p{
+    color: #e6e6e6;
+    font-weight: 600;
+    margin-bottom: 2vw;
+    font-size: 1.7vw;
+    text-align: center;
+    width: 70vw;
+}
+
+main .section-4 a{
+    background-color: #ffffff ;
+    color: #16367b;
+    padding: 0.5vw 1.9vw;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    width: 11.6vw;
+}
+
+main .section-4 .section-4-2 p{
+    font-weight: 600;
+    margin: 3vw auto;
+    font-size: 1.7vw;
+    text-align: center;
+    width: 70vw;
+}
+
+
+main .section-4 .section-4-2 .img{
+    display: flex;
+    justify-content: center;
+}
+
+main .section-4 .section-4-2 img{
+    width: 8vw;
+    margin: 0 3vw;
+}
+
+/*------------------------------ Secion 4 ------------------------------ */
+
+footer {
+    background-color: #16367b;
+    padding: 2vw 14vw;
+}
+
+footer .footer-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-1 img{
+    width: 2.3vw;
+    margin-left: 0.5vw;
+}
+
+footer .footer-1 > img{
+    width: 4vw;
+    margin-left: 0;
+}
+
+ footer hr {
+    border: none;
+    height: 1px;
+    background-color: #eaeef3;
+    margin: 1vw 0;
+    opacity: 0.15;
+  }
+
+
+footer nav ul{
+    display: flex;
+    align-items: center;
+}
+
+footer nav ul li{
+    margin-right: 3vw;
+    list-style-type: none;
+}
+
+footer nav ul li a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav li{
+    list-style-type: none;
+}
+
+footer nav li a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer nav a span{
+    background-color: #ff8400 ;
+    color: #ffffff;
+    padding: 0.5vw 1.9vw;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer p{
+    text-align: center;
+    margin: 2.5vw;
+    color: #e6e6e6;
+}
